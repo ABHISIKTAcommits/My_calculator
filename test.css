@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    font-family: "Ubuntu", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.calculator {
+    background-color: #f5b8d9;
+    padding: 4px 8px 8px 8px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 0 5px 5px #f313a8;
+}
+
+#display {
+    width: 450px;
+    height: 70px;
+    border-radius: 7px;
+    cursor: text;
+    text-align: right;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 0 2px 2px #a7598d;
+    background: #f2cfe8;
+}
+
+.box {
+    font-family: "Ubuntu", serif;
+    font-weight: 900;
+    font-style: normal;
+    background-color: rgb(242, 188, 238);
+    height: 50px;
+    width: 110px;
+    box-shadow: 0 0 2px 2px #86707e;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    border-radius: 5px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px;
+}
+
+button:hover {
+    background: #fa6bc1;
+}
